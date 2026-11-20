@@ -1,0 +1,7 @@
+# Copyright (c) 2026 Logan Walker. All rights reserved. See NOTICE.
+# Linux/macOS cron entry for the machine that runs the review app (so both share data/state.db).
+# Runs daily at 6:17am local time. flock prevents overlapping runs. Output is appended to a log.
+17 6 * * * cd /opt/bellhaven-sync && flock -n /tmp/bellhaven-sync.lock python3 -m bellhaven_sync sync >> data/sync.log 2>&1
+
+# Windows equivalent (Task Scheduler), run once in a terminal from the project folder:
+# schtasks /Create /SC DAILY /ST 06:17 /TN "Bellhaven Sync" /TR "cmd /c cd /d %CD% && python -m bellhaven_sync sync >> data\sync.log 2>&1"

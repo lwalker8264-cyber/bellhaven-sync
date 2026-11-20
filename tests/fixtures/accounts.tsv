@@ -1,0 +1,55 @@
+account_id	name	parent_id	billing_street	billing_city	billing_state	billing_zip	care_type	status	phone	lifetime_revenue	outstanding_ar
+0015QAPLGS3FVYEEEM	Bellhaven Senior Living (Parent Account)							Active	(260) 328-5930	0	0
+001FWSQ30SFW6S7604	Cedar Trail Communities (Parent Account)							Active	(517) 353-4488	0	0
+001FJZYHR7MLFMNPLL	Harborview Care Group (Parent Account)							Active	(517) 561-9289	0	0
+001DAAUWV2J3SHQJ34	Juniper Point Healthcare (Parent Account)							Active	(614) 212-1465	0	0
+001YRHHXQ5HJ0TCL2U	Millstone Health Partners (Parent Account)							Active	(517) 908-5310	0	0
+00139TNDS8HNLUZ5A6	Stonebridge Eldercare (Parent Account)							Active	(260) 311-6533	0	0
+001UKEFGADQ8YCZ4YM	Bellhaven Meadows of Findlay		1800 N Blanchard St	Findlay	OH	45840	Assisted Living	Active	(330) 975-2492	22000	0
+0016KTS1UAWBRXS09J	Kettering Nursing & Rehabilitation		3313 Wilmington Pike	Kettering	OH	45429	Skilled Nursing	Active	(216) 345-3441	0	0
+001YQH5RQ9VL8C42GU	Aspen Court Assisted Living		3183 Lake Rd	Elkhart	IN	46514	Skilled Nursing	Inactive	(419) 413-4409	0	0
+0010KJFP601YNTZVDA	Arbors at Bellhaven Dayton	0015QAPLGS3FVYEEEM	2210 Salem Ave	Dayton	OH	45406	Memory Care	Active	(216) 659-9837	0	0
+00116ETS45BL7DTQP7	Bellhaven Care Center of Alliance	0015QAPLGS3FVYEEEM	1785 Freshley Ave	Alliance	OH	44601	Skilled Nursing	Active	(734) 358-4538	0	0
+0011D2P3CWSHMF81C8	Bellhaven Court of Altoona	0015QAPLGS3FVYEEEM	1125 Logan Boulevard	Altoona	PA	16602	Assisted Living	Active	(517) 573-9493	61000	0
+001U1750VLVJAGG1S5	Bellhaven Gardens of Monroe	0015QAPLGS3FVYEEEM	750 Stewart Rd	Monroe	MI	48162	Assisted Living	Active	(814) 291-2902	0	0
+001RJ0D7Z5MAZN5HX5	Bellhaven Health Care Center of Ashland	0015QAPLGS3FVYEEEM	1631 Claremont Ave	Ashland	OH	44805	Skilled Nursing	Active	(734) 319-7813	0	0
+001NXP9X46CWEPSLSV	Bellhaven of Ashtabula	0015QAPLGS3FVYEEEM	PO Box 517	Ashtabula	OH	44004	Skilled Nursing	Active	(260) 440-4975	0	0
+0016PVXH4B25HWR7QE	Bellhaven of Coldwater	0015QAPLGS3FVYEEEM	90 N Michigan Ave	Coldwater	MI	49036	Assisted Living	Active	(814) 581-1138	0	0
+001R4PXTUD9R6FNN8V	Bellhaven of Defiance	0015QAPLGS3FVYEEEM	700 Carpenter Road	Defiance	OH	43512	Skilled Nursing	Active	(231) 238-4862	66000	9500
+001JQER1RMYKNRLNME	Bellhaven of Goshen	0015QAPLGS3FVYEEEM	1610 College Avenue	Goshen	IN	46526	Assisted Living	Active	(517) 409-8156	121000	0
+001NSHWKQD0YJLPQ20	Bellhaven of Kalamazoo	0015QAPLGS3FVYEEEM	3222 Gull Road	Kalamazoo	MI	49048	Skilled Nursing	Active	(231) 460-1964	0	0
+001L3LGR6W69J8DYYV	Bellhaven of Maplewood	0015QAPLGS3FVYEEEM	210 Orchard Ln	Maplewood	OH	44280	Assisted Living	Active	(614) 250-9447	0	0
+0015L38R1Z5947ZZP7	Bellhaven of Marion	0015QAPLGS3FVYEEEM	199 Barks Road West	Marion	OH	43302	Skilled Nursing	Active	(330) 314-3109	87000	0
+001KC1NG7EZDEKKA3T	Bellhaven of Meadville	0015QAPLGS3FVYEEEM	341 Chestnut Street	Meadville	PA	16335	Skilled Nursing	Active	(419) 848-5389	87000	1000
+001AQGPZ5G5VRES536	Bellhaven of New Carlisle	0015QAPLGS3FVYEEEM	875 Elm St	New Carlisle	OH	45344	Skilled Nursing	Active	(614) 900-2177	156000	0
+001EGU7BMJ942ZTRE6	Bellhaven of Owosso	0015QAPLGS3FVYEEEM	1120 W Main St	Owosso	MI	48867	Assisted Living	Active	(734) 503-1363	0	0
+001QU150PM4Z15UA71	Bellhaven of Owosso	0015QAPLGS3FVYEEEM	1120 West Main Street	Owosso	MI	48867	Assisted Living	Active	(330) 383-5991	0	0
+001UELXDAKFRKB8932	Bellhaven of Port Clinton	0015QAPLGS3FVYEEEM	1420 Harbor Point Dr	Port Clinton	OH	43452	Skilled Nursing	Active	(614) 512-8712	0	0
+001CF3LDWVRGL09P4F	Bellhaven of Portsmouth	0015QAPLGS3FVYEEEM	2222 Gallia St	Portsmouth	OH	45626	Skilled Nursing	Active	(330) 431-2495	0	0
+001MVVAPY6U5TVYRC4	Bellhaven of Saline	0015QAPLGS3FVYEEEM	980 West Michigan Avenue	Saline	MI	48176	Skilled Nursing	Active	(614) 868-2766	0	0
+001SXSF4ELF0Z2LGDM	Bellhaven of Sandusky	0015QAPLGS3FVYEEEM	2715 Columbus Ave	Sandusky	OH	44870	Skilled Nursing	Active	(260) 212-1086	130000	5200
+00191H7JR16471SZ34	Bellhaven of Sycamore Ridge	0015QAPLGS3FVYEEEM	7420 Sycamore Ridge Dr	Miamisburg	OH	45342	Assisted Living	Active	(419) 982-7764	0	0
+001W5G121A7SMRP58M	Bellhaven of Wooster	0015QAPLGS3FVYEEEM	2301 Cleveland Rd	Wooster	OH	44691	Skilled Nursing	Active	(517) 712-7557	25000	0
+001TZCSTBZFM6K5BGN	Bellhaven Rehab and Nursing of Grove City	0015QAPLGS3FVYEEEM	3985 Broadway	Grove City	OH	43123	Skilled Nursing	Active	(614) 555-7729	0	0
+001CVBBCSDM7YHN220	Bellhaven Shores of Erie	0015QAPLGS3FVYEEEM	4930 W Lake Rd	Erie	PA	16505	Assisted Living	Active	(419) 495-1741	0	0
+0019Y4J61ZBG4R00CD	Bellhaven Terrace of Akron	0015QAPLGS3FVYEEEM	55 Ridgewood Ave	Akron	OH	44313	Assisted Living	Active	(260) 899-4605	101000	9000
+0014DHACE6WQU3RMM5	Bellhaven Woods of Toledo	0015QAPLGS3FVYEEEM	4850 Northwest Sylvania Avenue	Toledo	OH	43623	Memory Care	Active	(734) 388-8242	54000	0
+0013NUZQHQUEZ8DXEG	Chesterton Senior Commons	0015QAPLGS3FVYEEEM	1250 Northwest Franklin St	Chesterton	IN	46304	Skilled Nursing	Active	(216) 551-3978	0	0
+001RJU1X4NBWC1Q0G7	Riverbend Manor Care Center	0015QAPLGS3FVYEEEM	150 River St	Chagrin Falls	OH	44022	Assisted Living	Active	(517) 457-9548	0	0
+0017MN2JYAJBDS8WQZ	Sunny Acres Retirement Home	0015QAPLGS3FVYEEEM	8060 Willow Creek Lane	Portage	MI	49024	Memory Care	Active	(216) 898-7925	0	0
+001A34WFSUYHCRBLFT	Bellhaven of Marietta	001FWSQ30SFW6S7604	805 Colegate Drive	Marietta	OH	45750	Skilled Nursing	Active	(419) 353-5019	51250	3800
+001U6RW32TY0WSXZZB	Bellhaven of Tiffin	001FWSQ30SFW6S7604	45 St Lawrence Dr	Tiffin	OH	44883	Skilled Nursing	Active	(614) 829-9278	84000	12400
+0011AB44D05WLA9HTX	Cedar Trail of Monroe	001FWSQ30SFW6S7604	750 Stewart Road	Monroe	MI	48162	Assisted Living	Active	(216) 748-7799	0	0
+001H1JMVZWP46D5VUF	Cedar Trail of Zanesville	001FWSQ30SFW6S7604	2680 Maple Avenue	Zanesville	OH	43701	Skilled Nursing	Active	(517) 817-8191	0	0
+001B7XZAA3AFALS9GP	Kettering Senior Campus	001FWSQ30SFW6S7604	3313 Wilmington Pk	Kettering	OH	45429	Skilled Nursing	Active	(517) 646-8751	0	0
+001LGFPBJY4N9MB6KL	Bellhaven Crossings of Lima	001FJZYHR7MLFMNPLL	3115 N Cole St	Lima	OH	45801	Assisted Living	Active	(734) 872-9575	47000	0
+001JD2MWRA74LTSN24	Harborview Nursing & Rehab of Port Clinton	001FJZYHR7MLFMNPLL	1420 Harbor Point Drive	Port Clinton	OH	43452	Skilled Nursing	Active	(216) 314-1338	0	0
+001BLYF02K97SZLZHH	Harborview Shores of Erie	001FJZYHR7MLFMNPLL	4930 West Lake Road	Erie	PA	16505	Assisted Living	Active	(517) 775-8456	0	0
+001WR41PYNWXCAE2X4	Kettering Care Centre	001FJZYHR7MLFMNPLL	3313 Wilmington Pike	Kettering	OH	45429	Skilled Nursing	Active	(419) 600-2603	0	0
+00159PL81N38KM4FHM	Monroe Gardens Care Center	001FJZYHR7MLFMNPLL	750 Stewart Rd	Monroe	MI	48162	Assisted Living	Active	(330) 501-4496	0	0
+0015D74ZLRY810RGY5	Amberly Manor	001DAAUWV2J3SHQJ34	918 S Nevada Ave	Colorado Springs	CO	80903	Assisted Living	Active	(734) 358-9267	0	0
+001DPANQQTRR1LXFY4	Amberly Estates	001DAAUWV2J3SHQJ34	9735 Maple St	Parma	OH	44129	Assisted Living	Active	(517) 216-2060	0	0
+001GNU41AVXZRLLJ9P	Union Square Senior Living	001DAAUWV2J3SHQJ34	240 Market St	New Albany	OH	43054	Assisted Living	Active	(260) 782-4620	0	0
+0017JP8Z1UQ763BVK3	Millstone Care of Sandusky	001YRHHXQ5HJ0TCL2U	2715 Columbus Ave	Sandusky	OH	44870	Skilled Nursing	Active	(614) 307-3608	0	0
+0019M1Z45PGV2DJ971	Maplewood Senior Care Center	00139TNDS8HNLUZ5A6	431 Main St	Maplewood	OH	44280	Skilled Nursing	Active	(614) 773-5688	0	0
+001UXEM0PCSUVRAYPF	Amberly Care Center	00139TNDS8HNLUZ5A6	9320 Cherry Blvd	Grand Rapids	MI	49503	Skilled Nursing	Active	(734) 611-4393	0	0

@@ -1,0 +1,53 @@
+# Copyright (c) 2026 Logan Walker. All rights reserved. See NOTICE.
+# Daily sync: scrape the Bellhaven website, match against the CRM, queue NEW proposals.
+# This job never writes to the CRM. Only an approval in the review app does.
+#
+# Re-run safety: the decision log (data/state.db) is restored before the run and saved after it, so items
+# already approved/rejected are never re-proposed. (In production this file would live in a shared database
+# that the review app also reads; for this exercise the review app runs locally - see README "Scheduling".)
+name: bellhaven-daily-sync
+
+on:
+  schedule:
+    - cron: "17 11 * * *"   # every day 11:17 UTC (~6:17am Central), off the top of the hour
+  workflow_dispatch: {}      # allow a manual run from the Actions tab
+
+concurrency:                 # never two syncs at once
+  group: bellhaven-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore decision log
+        uses: actions/cache/restore@v4
+        with:
+          path: data/state.db
+          key: bellhaven-state-${{ github.run_id }}
+          restore-keys: bellhaven-state-
+
+      - name: Run tests
+        run: python -m unittest discover tests
+
+      - name: Sync (scrape + match + queue proposals)
+        env:
+          BELLHAVEN_TOKEN: ${{ secrets.BELLHAVEN_TOKEN }}   # stored as a repo secret, never in code
+        run: python -m bellhaven_sync sync
+
+      - name: Save decision log
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/state.db
+          key: bellhaven-state-${{ github.run_id }}
